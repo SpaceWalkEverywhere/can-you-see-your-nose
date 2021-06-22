@@ -7,8 +7,8 @@ function setup(){
     cam=createCapture(VIDEO);
     cam.size(375,300);
     cam.hide();
-    net=ml5.poseNet(cam,modelloaded)
-    net.on('pose',gotposes)
+    net=ml5.poseNet(cam,modelloaded);
+    //net.on('pose',gotposes);
 }
 function draw(){
     image(cam,0,0,375,300);
