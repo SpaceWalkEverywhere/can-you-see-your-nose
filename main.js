@@ -1,5 +1,5 @@
 nx=0;
-ny=0
+ny=0;
 
 function preload() {
 img=loadImage('https://i.postimg.cc/MZNHNsCv/download-4.png');
