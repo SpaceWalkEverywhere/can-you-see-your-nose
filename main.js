@@ -2,7 +2,7 @@ nx=0;
 ny=0
 
 function preload() {
-
+img=loadImage('https://i.postimg.cc/MZNHNsCv/download-4.png');
 }
 function setup(){
     Canvas=createCanvas(375,300);
@@ -15,9 +15,7 @@ function setup(){
 }
 function draw(){
     image(cam,0,0,375,300);
-   circle(nx,ny,20);
-   stroke(0,0,0);
-   fill(255,0,0);
+   image(img,nx,ny,60,35);
 }
 function ohsnap(){
     save("no_nose.png");
