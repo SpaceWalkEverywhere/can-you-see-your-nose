@@ -1,8 +1,8 @@
 nx=0;
-ny=0;
+ny=0
 
 function preload() {
-img=loadImage('https://i.postimg.cc/MZNHNsCv/download-4.png');
+img=loadImage('https://i.postimg.cc/7ZBcjDqp/clownnose.png');
 }
 function setup(){
     Canvas=createCanvas(375,300);
@@ -15,7 +15,7 @@ function setup(){
 }
 function draw(){
     image(cam,0,0,375,300);
-   image(img,nx,ny,60,35);
+   image(img,nx,ny,30,30);
 }
 function ohsnap(){
     save("no_nose.png");
